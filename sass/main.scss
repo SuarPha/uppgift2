@@ -1,6 +1,23 @@
-*{
-    background-color: aquamarine;
-    width: 0;
-    height: 0;
-    box-sizing: border-box;
+* {
+  height: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(144, 233, 225);
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+.child-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+.main-container form {
+  display: flex;
+  width: 50px;
+  height: 200px;
 }
